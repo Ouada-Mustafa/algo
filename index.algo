@@ -1,0 +1,28 @@
+ALGORITHM GO MY CODE
+VAR
+a,b,c,d: INTEGER;
+    
+BEGIN
+a=0 //a nombre d'espace//
+b=0 // b nombre d'lettres//
+s=0 // s nombre de voyelle//
+d=0 // d nombre de lettres sans voyelle// 
+    write ("GO MY CODE")
+    read (text)
+    c=text.length
+    read (c)
+    FOR i FROM 0 TO N step  DO
+        IF (text==" ") THEN
+        a= a+1
+        END_IF
+        b=c-a //nomber de lettre sans espace//
+        IF (text=="a") (text=="i") (text=="e") (text=="u") (text=="o") THEN
+            s=s+1
+        END_IF
+d=b-s
+    END_FOR
+    read (a)
+    read (b)
+    read (s)
+    read (d)
+END
